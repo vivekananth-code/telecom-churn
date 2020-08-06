@@ -26,3 +26,4 @@ idna==2.10
 requests==2.24.
 matplotlib>=1.4.3
 breathe
+lightgbm==2.3.0
