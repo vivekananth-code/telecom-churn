@@ -21,7 +21,12 @@ virtualenv==20.0.7
 Werkzeug==1.0.1
 wincertstore==0.2
 threadpoolctl==2.1.0
-urllib3==1.25
+urllib3!=1.25.0
+urllib3!=1.25.1
+urllib3!<1.26
+urllib3!>=1.21.1
 idna==2.10
 requests==2.24.
 matplotlib>=1.4.3
+-r requirements_base.txt
+breathe
