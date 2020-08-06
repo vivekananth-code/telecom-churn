@@ -4,7 +4,7 @@ import sklearn
 import pickle
 import pandas as pd
 
-app = Flask(__name__)
+app = Flask(__name__, template_folder='template')
 model2=open('churn.pkl','rb')
 light = pickle.load(model2)
 
